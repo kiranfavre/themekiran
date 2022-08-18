@@ -1,6 +1,5 @@
 library(tidyverse)
 library(lterdatasampler)
-library(themekiran)
 
 ggplot(data = hbr_maples,
        aes(y = stem_length, x = watershed)) +
